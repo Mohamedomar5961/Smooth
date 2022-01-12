@@ -1,0 +1,51 @@
+export const homeObjOne = {
+  id: "about",
+  lightBg: false,
+  lightText: true,
+  lightTextDesc: true,
+  topLine: "Premium Bank",
+  headline: "Unlimited Transactions with zero fees",
+  description:
+    "Get access to our exclusive app that allows you to send unlimited transactions without getting charged any fees.",
+  buttonLabel: "Get started",
+  imgStart: false,
+  img: require("../../images/svg-1.svg"),
+  alt: "svg",
+  dark: true,
+  primary: true,
+  darkText: false,
+};
+export const homeObjTwo = {
+  id: "discover",
+  lightBg: true,
+  lightText: false,
+  lightTextDesc: false,
+  topLine: "What we are",
+  headline: "Learn more about Vmail here",
+  description:
+    "Vmail is a place you can manage all your social media from. It is easy and quick to get going.",
+  buttonLabel: "Learn More",
+  imgStart: true,
+  img: require("../../images/svg-1.svg"),
+  alt: "svg",
+  dark: false,
+  primary: false,
+  darkText: true,
+};
+export const homeObjThree = {
+  id: "signup",
+  lightBg: true,
+  lightText: false,
+  lightTextDesc: false,
+  topLine: "Make life easy",
+  headline: "Get started now!",
+  description:
+    "Quick and easy to sign up. Quick and easy to use. Is the perfect place to manage everything",
+  buttonLabel: "Get started",
+  imgStart: false,
+  img: require("../../images/svg-1.svg"),
+  alt: "svg",
+  dark: false,
+  primary: false,
+  darkText: true,
+};
